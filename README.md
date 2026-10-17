@@ -1,3 +1,8 @@
+<!-- Mr. Rao AI edition -->
+> **Mr. Rao AI edition.** Shared by [Mr. Rao AI](https://mrraoai.com). Step by step setup guide: [Free Claude Skills for an X Content Factory: Jake's x-agent-skill Setup for Founders](https://mrraoai.com/resources/claude-skills-x-content-factory-for-founders/)
+>
+> Original project by Jake Schincariol (https://github.com/Jakeschincariol/x-agent-skill), MIT license.
+
 # The X agent skill
 
 Eleven Claude skills that run an X account. Free, MIT, no signup, no API key,
@@ -22,7 +27,7 @@ export and tells you what worked, with the sample size on every claim.
 Paste this into Claude:
 
 ```
-https://github.com/Jakeschincariol/x-agent-skill
+https://github.com/AgentMrX/x-agent-skill
 
 Install this skill, then confirm /x-post works.
 ```
@@ -30,14 +35,14 @@ Install this skill, then confirm /x-post works.
 Or do it yourself, in Claude Code:
 
 ```bash
-git clone https://github.com/Jakeschincariol/x-agent-skill.git
+git clone https://github.com/AgentMrX/x-agent-skill.git
 cp -r x-agent-skill/skills/x-* ~/.claude/skills/
 ```
 
 Or as a plugin:
 
 ```
-/plugin marketplace add Jakeschincariol/x-agent-skill
+/plugin marketplace add AgentMrX/x-agent-skill
 /plugin install x-agent
 ```
 
@@ -300,13 +305,20 @@ templates/voice.md               your voice profile. Fill this in first.
 Your own files live in `~/.claude/x/`: `voice.md`, `plan.md`, `log.md` and
 `swipe.md`. The skills read each other's.
 
-## Credit
-
-Made by Jake Schincariol, [opusjake.ai](https://opusjake.ai). Siblings:
-[LinkedIn](https://github.com/Jakeschincariol/linkedin-agent-skill),
-[Instagram](https://github.com/Jakeschincariol/instagram-agent-skill),
-[YouTube](https://github.com/Jakeschincariol/youtube-agent-skill).
-
 ## License
 
 MIT. Take it, change it, ship it.
+
+---
+
+## Adapted by Mr. Rao AI
+
+This repository is a copy of the open-source project above, maintained by [Mr. Rao AI](https://mrraoai.com) for readers of mrraoai.com.
+
+What is different in this copy:
+
+- Added the Mr. Rao AI header and this section, and pointed repo, install and community links to Mr. Rao AI.
+- Replaced the original author's credit, support and sponsor sections with this one (the original credit line is at the top).
+- The original LICENSE file is kept exactly as published.
+
+Setup guide, FAQ and updates: [Free Claude Skills for an X Content Factory: Jake's x-agent-skill Setup for Founders](https://mrraoai.com/resources/claude-skills-x-content-factory-for-founders/). More free resources: [mrraoai.com/resources](https://mrraoai.com/resources/).
